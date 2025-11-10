@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: azure;
+}
+
+.heading {
+  width: 100%;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-box {
+  width: 20%;
+  padding: 8px 24px;
+  font-size: large;
+  border-radius: 24px;
+}
+
+.tags-container {
+  max-width: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: darkgrey;
+  padding: 8px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  list-style-type: none;
+}
