@@ -1,0 +1,37 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.heading {
+  text-align: center;
+}
+.product-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.product-container {
+  border: 1px solid black;
+  margin: 4px;
+  padding: 8px;
+}
+.title {
+  text-align: center;
+}
+.pages {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.page-numbers {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 2px;
+  cursor: pointer;
+}
+.active{
+  background-color: rgb(0, 193, 13);
+}
